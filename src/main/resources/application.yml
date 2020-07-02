@@ -1,0 +1,9 @@
+server:
+  port: 8088
+
+spring:
+  freemarker:
+    suffix: .ftlh
+    cache: true   #生产环境配置为true，开发环境关闭缓存
+    content-type: text/html;charset=utf-8
+
