@@ -10,3 +10,5 @@
  freemarker判断是否为null(在页面文件中)
  1、${msg！"默认值"}
  2、<#if msg??>${msg}</#if>
+三、页面跳转整个过程：
+UserController.java->页面文件{相关的名称一定要一致}
