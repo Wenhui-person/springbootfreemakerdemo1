@@ -4,6 +4,9 @@ server:
 spring:
   freemarker:
     suffix: .ftlh
-    cache: true   #生产环境配置为true，开发环境关闭缓存
+    cache: false
+    charset: UTF-8
     content-type: text/html;charset=utf-8
+    settings:
+      number_format: 0.##
 

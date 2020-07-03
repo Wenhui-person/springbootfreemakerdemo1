@@ -9,13 +9,13 @@
     <table id="ajaxtable">
         <tr>
             <th align="right">用户名：</th>
-            <td>
+            <td align="left">
                 <input type="text" name="username">
             </td>
         </tr>
         <tr>
             <th align="right">密码：</th>
-            <td>
+            <td align="left">
                 <input type="password" name="password">
             </td>
         </tr>
@@ -32,9 +32,10 @@
             </td>
         </tr>
     </table>
+    <link rel="stylesheet" href="/css/editTablestyles.css">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/listTable.js"></script>
 </form>
-<link rel="stylesheet" href="..static/css/editTablestyles.css">
-<script type="text/javascript" src="/js/jquery.min.js"></script>
-<script type="text/javascript" src="/js/listTable.js"></script>
+
 </body>
 </html>
